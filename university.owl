@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://demontfortuniversity-my.sharepoint.com/:f:/g/personal/p2501856_my365_dmu_ac_uk/Ejq2j4ydx6JPnsViyzvX-sYBWM9976ppPFJlraAkukdB-Q?e=bU3k5M/deneme1.owl#"
+     xml:base="https://demontfortuniversity-my.sharepoint.com/:f:/g/personal/p2501856_my365_dmu_ac_uk/Ejq2j4ydx6JPnsViyzvX-sYBWM9976ppPFJlraAkukdB-Q?e=bU3k5M/deneme1.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:deneme1="https://demontfortuniversity-my.sharepoint.com/:f:/g/personal/p2501856_my365_dmu_ac_uk/Ejq2j4ydx6JPnsViyzvX-sYBWM9976ppPFJlraAkukdB-Q?e=bU3k5M/deneme1.owl#"
+     xmlns:Bns9NncakK5O6StcP63KkEczmqmLjoYr="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#">
+    <owl:Ontology rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#studies -->
+
+    <owl:ObjectProperty rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#studies">
+        <rdfs:domain rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student"/>
+        <rdfs:range rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Module"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#teaches -->
+
+    <owl:ObjectProperty rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#teaches">
+        <rdfs:domain rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Lecturer"/>
+        <rdfs:range rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Module"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#First_Name -->
+
+    <owl:DatatypeProperty rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#First_Name">
+        <rdfs:domain rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#People"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Last_Name -->
+
+    <owl:DatatypeProperty rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Last_Name">
+        <rdfs:domain rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#People"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Staff_ID -->
+
+    <owl:DatatypeProperty rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Staff_ID">
+        <rdfs:domain rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Lecturer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student_ID -->
+
+    <owl:DatatypeProperty rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student_ID">
+        <rdfs:domain rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CSModule -->
+
+    <owl:Class rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CSModule">
+        <rdfs:subClassOf rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Module"/>
+    </owl:Class>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Lecturer -->
+
+    <owl:Class rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Lecturer">
+        <rdfs:subClassOf rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#People"/>
+    </owl:Class>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Math -->
+
+    <owl:Class rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Math">
+        <rdfs:subClassOf rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Module"/>
+    </owl:Class>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Module -->
+
+    <owl:Class rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Module"/>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#People -->
+
+    <owl:Class rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#People"/>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student -->
+
+    <owl:Class rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student">
+        <rdfs:subClassOf rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#People"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CS101 -->
+
+    <owl:NamedIndividual rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CS101">
+        <rdf:type rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CSModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CS103 -->
+
+    <owl:NamedIndividual rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CS103">
+        <rdf:type rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CSModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Lecturer_1 -->
+
+    <owl:NamedIndividual rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Lecturer_1">
+        <rdf:type rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Lecturer"/>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:teaches rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CS101"/>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:teaches rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#M201"/>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:First_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ljiljana</Bns9NncakK5O6StcP63KkEczmqmLjoYr:First_Name>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:Last_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marjanovic</Bns9NncakK5O6StcP63KkEczmqmLjoYr:Last_Name>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:Staff_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9829123</Bns9NncakK5O6StcP63KkEczmqmLjoYr:Staff_ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Lecturer_2 -->
+
+    <owl:NamedIndividual rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Lecturer_2">
+        <rdf:type rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Lecturer"/>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:teaches rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CS103"/>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:teaches rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#M204"/>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:First_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arash</Bns9NncakK5O6StcP63KkEczmqmLjoYr:First_Name>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:Last_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beizae</Bns9NncakK5O6StcP63KkEczmqmLjoYr:Last_Name>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:Staff_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2312351</Bns9NncakK5O6StcP63KkEczmqmLjoYr:Staff_ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#M201 -->
+
+    <owl:NamedIndividual rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#M201">
+        <rdf:type rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Math"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#M204 -->
+
+    <owl:NamedIndividual rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#M204">
+        <rdf:type rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Math"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student_1 -->
+
+    <owl:NamedIndividual rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student_1">
+        <rdf:type rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student"/>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:studies rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CS101"/>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:studies rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#M201"/>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:First_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ozan</Bns9NncakK5O6StcP63KkEczmqmLjoYr:First_Name>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:Last_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tasli</Bns9NncakK5O6StcP63KkEczmqmLjoYr:Last_Name>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:Student_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2501856</Bns9NncakK5O6StcP63KkEczmqmLjoYr:Student_ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student_2 -->
+
+    <owl:NamedIndividual rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student_2">
+        <rdf:type rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student"/>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:studies rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CS103"/>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:studies rdf:resource="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#M204"/>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:First_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carlos</Bns9NncakK5O6StcP63KkEczmqmLjoYr:First_Name>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:Last_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Menges</Bns9NncakK5O6StcP63KkEczmqmLjoYr:Last_Name>
+        <Bns9NncakK5O6StcP63KkEczmqmLjoYr:Student_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">214215</Bns9NncakK5O6StcP63KkEczmqmLjoYr:Student_ID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#CSModule"/>
+            <rdf:Description rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Lecturer"/>
+            <rdf:Description rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Math"/>
+            <rdf:Description rdf:about="https://drive.google.com/open?id=1Bns9NncakK5O6StcP63KkEczmqmLjoYr#Student"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+
